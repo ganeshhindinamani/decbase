@@ -1,5 +1,6 @@
 const navImage = document.querySelector(".nav-img");
 const navLinks = document.querySelector(".nav-links");
+const links = document.querySelectorAll(".nav-links a");
 
 navImage.addEventListener("click", () => {
   navImage.classList.toggle("active");
@@ -9,7 +10,12 @@ navImage.addEventListener("click", () => {
   navLinks.classList.toggle("active");
 });
 
-// const links = document.querySelectorAll(".nav-links a");
+links.forEach((link) => {
+  link.addEventListener("click", () => {
+    navImage.classList.remove("active");
+    navLinks.classList.remove("active");
+  });
+});
 
 // links.forEach((link) => {
 //   link.addEventListener("click", () => {

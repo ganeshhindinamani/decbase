@@ -696,7 +696,11 @@ footer .footer-last {
   }
 
   .main-content p {
-    margin-bottom: 0;
+    margin-bottom: 1rem;
+  }
+
+  .main-content .highlight {
+    margin-bottom: 1rem;
   }
 
   main .main-img {
@@ -850,6 +854,11 @@ footer .footer-last {
     width: initial;
   }
 
+  footer#contact {
+    margin-top: 2rem;
+    padding-top: 6rem;
+  }
+
   footer .footer-flex {
     flex-direction: column;
   }
@@ -858,7 +867,11 @@ footer .footer-last {
     margin-bottom: 2rem;
   }
 
+  footer p.footer-last-para {
+    font-size: 0.8rem;
+  }
+
   section {
-    padding: 2rem 0;
+    padding: 6rem 0;
   }
 }
