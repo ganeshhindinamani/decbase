@@ -1,3 +1,14 @@
+const navImage = document.querySelector(".nav-img");
+const navLinks = document.querySelector(".nav-links");
+
+navImage.addEventListener("click", () => {
+  navImage.classList.toggle("active");
+});
+
+navImage.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+});
+
 // const links = document.querySelectorAll(".nav-links a");
 
 // links.forEach((link) => {
