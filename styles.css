@@ -625,6 +625,13 @@ footer .footer-last {
   color: #37806b;
 }
 
+footer .underline {
+  border-bottom: 1px solid #3d8470;
+}
+footer .underline:hover {
+  border-bottom: 1px solid #caa892;
+}
+
 /* Media Queries */
 
 @media (max-width: 500px) {
